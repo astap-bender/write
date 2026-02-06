@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with gradient -->
+  <rect x="32" y="32" width="448" height="448" rx="80" fill="url(#bg-gradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="140" cy="140" r="24" fill="white" opacity="0.1"/>
+  <circle cx="372" cy="140" r="16" fill="white" opacity="0.1"/>
+  <circle cx="140" cy="372" r="16" fill="white" opacity="0.1"/>
+  <circle cx="372" cy="372" r="24" fill="white" opacity="0.1"/>
+  
+  <!-- Sparkle icon -->
+  <g transform="translate(256, 200)">
+    <path d="M0,-80 L12,-24 L68,-12 L12,0 L0,56 L-12,0 L-68,-12 L-12,-24 Z" fill="white" opacity="0.9"/>
+    <path d="M56,-56 L62,-36 L82,-30 L62,-24 L56,-4 L50,-24 L30,-30 L50,-36 Z" fill="white" opacity="0.7"/>
+    <path d="M-56,40 L-50,56 L-34,62 L-50,68 L-56,84 L-62,68 L-78,62 L-62,56 Z" fill="white" opacity="0.7"/>
+  </g>
+  
+  <!-- Bottom text with modern styling -->
+  <rect x="100" y="320" width="312" height="80" rx="16" fill="white" opacity="0.15"/>
+  <text x="256" y="355" fill="white" font-size="32" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" text-anchor="middle">Koder</text>
+  <text x="256" y="385" fill="white" font-size="20" font-weight="400" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" text-anchor="middle" opacity="0.9">Modern SaaS Template</text>
+</svg>
