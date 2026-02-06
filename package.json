@@ -63,6 +63,7 @@
     "vite": "^7.2.7"
   },
   "name": "koder-app",
+  "homepage": "https://astap-bender.github.io/write",
   "packageManager": "yarn@4.9.4",
   "private": true,
   "scripts": {
